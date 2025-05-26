@@ -7,7 +7,10 @@
 }
 
 body {
-    background: #f0f4f8;
+    background:linear-gradient(rgba(23, 76, 129, 0.5),rgba(6, 137, 213, 0.5)),url(alex-shute-wB_eyMllXVE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #333;
     display: flex;
     align-items: center;
@@ -19,9 +22,9 @@ body {
 /* Container */
 .container {
     background: #fff;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 12px;
-    max-width: 500px;
+    max-width: 600px;
     width: 100%;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
