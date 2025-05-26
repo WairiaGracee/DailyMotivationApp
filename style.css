@@ -1,0 +1,75 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f0f4f8;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+/* Container */
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Quote */
+.quote-box {
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    font-style: italic;
+    padding: 1rem;
+    border-left: 4px solid #007bff;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Buttons */
+.buttons {
+    margin: 1rem 0;
+}
+
+button {
+    margin: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #007bff;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Favorites List */
+#favorites-list {
+    margin-top: 1rem;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#favorites-list li {
+    padding: 0.5rem;
+    background: #e9ecef;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
